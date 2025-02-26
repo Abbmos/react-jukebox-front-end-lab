@@ -40,3 +40,69 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.app-container {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.track-list-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.add-track-btn {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.track-grid {
+  display: flex;
+  gap: 10px;
+}
+
+.track-card {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.artist {
+  color: orange;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.play-btn {
+  background-color: yellow;
+  color: black;
+}
+
+.edit-btn {
+  background-color: gray;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+
+.now-playing {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 20px;
+}
