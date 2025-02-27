@@ -27,7 +27,6 @@ const App = () => {
 
 
   const handleFormView = (track) =>{
-    alert(track.artist)
     if (!track.artist) setSelected(null)
     else setSelected(track)
     setIsFormOpen(!isFormOpen)
